@@ -253,3 +253,19 @@ header {
     right: 20px;
     color: white;
 }
+
+/* CTA section */
+.cta-section {
+    background-color: #183b56;
+    padding: 120px var(--padding-inline-section);
+}
+
+.cta-section-container {
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+
+.cta-section-container p {
+    color: white !important;
+}
