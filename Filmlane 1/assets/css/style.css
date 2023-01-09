@@ -109,3 +109,50 @@ body.active {
 }
 
 /* Reused style */
+
+.container {
+    padding-inline: 15px;
+}
+
+/* header */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-block: 25px;
+    transition: var(--eerie-black);
+    z-index: 4;
+}
+
+.header-active {
+    background: var(--eerie-black);
+    padding-block: 20px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-actions {
+    display: none;
+}
+
+.menu-open-btn {
+    color: var(--white);
+    font-size: 40px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: var(--eerie-black);
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    box-shadow: -1px 0 3px hsl(0, 0%, lightness);
+}
