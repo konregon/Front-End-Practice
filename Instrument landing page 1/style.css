@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700&family=Roboto+Mono:wght@200;300;400;500&display=swap');
+/* font-family: 'Roboto Flex', sans-serif;
+font-family: 'Roboto Mono', monospace;
+ */
+
+/* general Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+:root {
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #577592;
+    --accent-color: #ffffff;
+    --accent-color-dark: #ffffffc5;
+    --padding-inline-section: 20px;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
