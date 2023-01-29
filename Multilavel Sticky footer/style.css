@@ -76,6 +76,44 @@ input[type="submit"] {
     margin-top: 0.3125rem;
 }
 
+.ft-social {
+    padding: 0 1.875rem 1.25rem;
+}
+
+.ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px #777 solid;
+    padding-top: 1.25rem;
+}
+
+.ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.ft-legal {
+    padding: 0.9375rem 1.875rem;
+    background-color: #333;
+}
+
+.ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ft-legal-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+}
+
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;
+    /* same as flex-grow: 1; */
+}
+
 @media only screen and (min-width: 29.8125rem
 
     /*477px*/
