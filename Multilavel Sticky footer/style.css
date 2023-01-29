@@ -42,3 +42,16 @@ body {
     flex: 1;
     /* same as flex-grow: 1; */
 }
+
+.ft-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem
+        /*200px*/
+    ;
+}
