@@ -31,3 +31,14 @@ a:hover {
     font-size: 1.375rem;
     padding-bottom: 0.625rem;
 }
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+    /* same as flex-grow: 1; */
+}
