@@ -8,44 +8,39 @@ font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #ffffff;
 }
 
 :root {
-    --primary-text-color: #ffffff;
-    --secondary-text-color: #577592;
-    --accent-color: #ffffff;
-    --accent-color-dark: #ffffffc5;
-    --padding-inline-section: 20px;
+
+    --cl-bg: #000;
+    --cl-font: #fff;
 }
 
 body {
-    background-color: black;
-}
+    background-color: var(--cl-bg);
+    color: var(--cl-font);
 
-h1 {
-    font-size: 3rem;
-}
+    max-width: 100vw;
 
-h2 {
-    font-size: 2rem;
-}
+    margin: 3rem 2.5rem;
 
-h3 {
-    font-size: 1.5rem;
-}
-
-p {
+    /* font-family: 'Roboto Mono', sans-serif; */
     font-family: 'Roboto Flex', sans-serif;
-    font-size: 1.25rem;
-    line-height: 1.8rem;
 }
 
 a {
     text-decoration: none;
-    display: inline-block;
 }
 
-ul {
-    list-style: none;
+
+/* NAVBAR */
+.navbar {
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+
 }
