@@ -176,3 +176,18 @@ a {
     line-height: 1.7;
     letter-spacing: .15rem;
 }
+
+/* partner */
+.partner {
+    display: flex;
+    justify-content: space-around;
+    margin: 10rem;
+}
+
+.partner-logo {
+    width: 30%;
+}
+
+.partner-logo img {
+    width: 100%;
+}
