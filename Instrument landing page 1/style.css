@@ -31,7 +31,6 @@ body {
 a {
     text-decoration: none;
     color: var(--cl-font);
-    text
 }
 
 
@@ -45,6 +44,10 @@ a {
 .navbar__logo {
     flex: 30%;
     text-transform: uppercase;
+}
+
+.navbar__logo h1 {
+    font-weight: 500;
 }
 
 .navbar__menu {
@@ -84,4 +87,16 @@ a {
 .banner img {
     width: 100%;
     padding: 5rem 1rem;
+}
+
+/* website's Tagline */
+.tagline {
+    margin: 12rem 7rem;
+    text-align: center;
+}
+
+.tagline h2,
+.tagline h3 {
+    font-weight: 500;
+    font-size: 4rem;
 }
