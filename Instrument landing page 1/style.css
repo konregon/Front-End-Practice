@@ -92,7 +92,9 @@ a {
 /* website's Tagline */
 .tagline {
     margin: 12rem 7rem;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .tagline h2,
@@ -127,7 +129,8 @@ a {
     line-height: 1.6;
 }
 
-.button a {
+.button a,
+.apply-now-btn {
     display: block;
     margin-top: 2rem;
     padding: 1rem 2.5rem;
@@ -137,12 +140,7 @@ a {
     border-radius: 5rem;
 }
 
-.button a:hover {
+.button a:hover,
+.apply-now-btn:hover {
     background-color: gray;
-}
-
-/* hero 2 */
-.hero-2 {
-    max-width: 100%;
-    display: flex;
 }
