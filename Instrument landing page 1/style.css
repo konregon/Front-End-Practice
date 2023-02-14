@@ -30,17 +30,50 @@ body {
 
 a {
     text-decoration: none;
+    color: var(--cl-font);
+    text
 }
 
 
 /* NAVBAR */
 .navbar {
-    background-color: dodgerblue;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logo {
+    flex: 30%;
+    text-transform: uppercase;
+}
+
+.navbar__menu {
+    flex: 25%;
 }
 
 .menu {
     display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
 
+}
+
+.menu li {
+    transition: all 1;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    word-spacing: .6rem;
+    font-size: .9rem;
+    padding: 0 1rem;
+}
+
+.menu__extra {
+    visibility: hidden;
+}
+
+.menu li:hover .menu__extra {
+    visibility: visible;
 }
