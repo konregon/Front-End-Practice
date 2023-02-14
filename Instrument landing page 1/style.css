@@ -191,3 +191,50 @@ a {
 .partner-logo img {
     width: 100%;
 }
+
+/* footer */
+.footer {
+    display: flex;
+}
+
+.menu-1 {
+    width: 25%;
+}
+
+.footer ul {
+    list-style-type: none;
+
+}
+
+.footer ul li {
+    margin-top: 2rem;
+}
+
+.footer ul li a {
+    letter-spacing: 2px;
+    padding: 0 1rem;
+}
+
+.menu li:hover .menu__extra,
+.menu-ul li:hover .menu__extra {
+    visibility: visible;
+}
+
+/* newsletter-btn */
+.newsletter {
+    display: flex;
+    width: 25%;
+    position: relative;
+    left: 0;
+    justify-content: space-between;
+    align-items: flex-end;
+    left: 20rem;
+}
+
+.newsletter-btn {
+    /* background-color: black; */
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    border: #fff solid .5px;
+
+}
