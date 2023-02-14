@@ -144,3 +144,35 @@ a {
 .apply-now-btn:hover {
     background-color: gray;
 }
+
+/* card */
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 47%;
+}
+
+.card-img img {
+    width: 100%;
+}
+
+.card-left {
+    margin-left: 1rem;
+}
+
+.card-title {
+    margin: 1rem 0;
+}
+
+.card-title h3 {
+    font-size: 1.5rem;
+}
+
+.card p {
+    word-spacing: 7px;
+    line-height: 1.7;
+    letter-spacing: .15rem;
+}
