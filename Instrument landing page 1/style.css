@@ -105,10 +105,11 @@ a {
 .hero-1 {
     max-width: 100%;
     display: flex;
+    margin-bottom: 13rem;
 }
 
 .side-img {
-    flex: 0 0 55%;
+    flex: 0 0 52%;
 }
 
 .side-img img {
@@ -138,4 +139,10 @@ a {
 
 .button a:hover {
     background-color: gray;
+}
+
+/* hero 2 */
+.hero-2 {
+    max-width: 100%;
+    display: flex;
 }
