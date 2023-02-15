@@ -106,3 +106,43 @@
 
     outline: none;
 }
+
+/* hero */
+.hero {
+    padding: 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row-1 {
+    display: flex;
+    width: 28rem;
+    /* border: #000000 solid 1px; */
+}
+
+.card-img {
+    width: 10rem;
+    /* padding: 1rem; */
+    margin: 1rem;
+}
+
+.card-img img {
+    width: 100%;
+}
+
+.card-content {
+    /* margin: 1rem; */
+    padding: 1rem 0;
+}
+
+.card-content h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.card-content p {
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 1rem;
+}
