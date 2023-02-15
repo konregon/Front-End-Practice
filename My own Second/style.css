@@ -133,4 +133,8 @@
     .card-right {
         height: 20rem;
     }
+
+    .title h2 {
+        color: gold;
+    }
 }
