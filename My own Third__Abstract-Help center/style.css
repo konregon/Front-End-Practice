@@ -166,15 +166,21 @@ a {
     display: flex;
     color: var(--color-white);
     padding: 3rem 6rem;
+    justify-content: space-between;
+    height: 25rem;
+}
+
+.footer-start {
+    display: flex;
 }
 
 .footer-col {
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 .footer-row-title {
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .footer-row-menu ul {
@@ -193,6 +199,17 @@ a {
 }
 
 .contact-us {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 500;
+}
+
+.footer-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    /* bottom: -rem; */
+    line-height: 1.6;
+    font-weight: 500;
+    font-size: 1.3rem;
 }
