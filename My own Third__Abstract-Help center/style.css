@@ -7,6 +7,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 :root {
     --color-primary-dark: #000000;
     --color-primary-banner: #dadbf1;
@@ -154,4 +158,41 @@
     text-decoration: none;
     color: var(--color-btn);
     font-size: 1.2rem;
+}
+
+/* footer */
+.footer {
+    background-color: var(--color-primary-dark);
+    display: flex;
+    color: var(--color-white);
+    padding: 3rem 6rem;
+}
+
+.footer-col {
+    padding: 1rem;
+}
+
+.footer-row-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.footer-row-menu ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.footer-row-menu ul li {
+    list-style-type: none;
+}
+
+.footer-row-menu ul li a {
+    color: var(--color-white);
+    line-height: 1.7;
+}
+
+.contact-us {
+    font-size: 1.1rem;
+    font-weight: 500;
 }
