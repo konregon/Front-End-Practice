@@ -45,6 +45,10 @@
     height: 100%;
 }
 
+.card-left-mob {
+    display: none;
+}
+
 .card-right {
     width: 20rem;
     height: 28rem;
@@ -111,4 +115,22 @@
 
 .fa-solid {
     padding-right: .5rem;
+}
+
+@media screen and (max-width: 475px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .card-left img {
+        display: none;
+    }
+
+    .card-left-mob {
+        display: block;
+    }
+
+    .card-right {
+        height: 20rem;
+    }
 }
