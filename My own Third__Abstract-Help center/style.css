@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary-dark: #000000;
+    --color-primary-banner: #dadbf1;
+
+    --color-btn: #4C5FD5;
+
+    --color-white: #fff;
+}
