@@ -116,18 +116,21 @@
 
 .row-1 {
     display: flex;
-    width: 28rem;
+    width: 30rem;
+    height: 15rem;
+    margin: 2rem 0;
     /* border: #000000 solid 1px; */
 }
 
 .card-img {
-    width: 10rem;
+    /* width: 10rem; */
     /* padding: 1rem; */
     margin: 1rem;
+    flex: 0 0 20%;
 }
 
 .card-img img {
-    width: 100%;
+    width: 5rem;
 }
 
 .card-content {
@@ -145,4 +148,10 @@
     font-size: 1.2rem;
     letter-spacing: 1.5px;
     margin-bottom: 1rem;
+}
+
+.card-content a {
+    text-decoration: none;
+    color: var(--color-btn);
+    font-size: 1.2rem;
 }
