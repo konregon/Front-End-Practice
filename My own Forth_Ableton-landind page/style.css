@@ -154,6 +154,7 @@ hr {
 .des-header {
     font-size: 1.8rem;
     font-weight: 400;
+    margin-bottom: 1rem;
 }
 
 .des-text {
@@ -198,4 +199,15 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+/* lone image */
+.lone-img {
+    width: 50%;
+    margin: 6rem auto;
+}
+
+.lone-img img {
+    width: 100%;
 }
