@@ -294,3 +294,40 @@ hr {
     display: flex;
     align-items: center;
 }
+
+/* hero-img four 4 */
+.hero-img4 {
+    display: flex;
+    width: 100vw;
+    height: 35.6rem;
+    background: linear-gradient(to right, #fff 0, #fff 50%, #b1c5ff 50%, #b1c5ff 90%, #fff 90%, #fff 100%);
+}
+
+.img4-left {
+    display: flex;
+    flex: 0 0 50%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.img4-right {
+    display: flex;
+    flex: 50%;
+}
+
+.img4-right-min {
+    width: 34rem;
+    padding: 8rem;
+}
+
+.img4-right-min p {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.img4-right-min a {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #0000ff;
+}
