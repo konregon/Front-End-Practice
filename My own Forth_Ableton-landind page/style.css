@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* font-family: 'Jost', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Jost', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.5rem;
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo img {
+    width: 120%;
+    height: auto;
+    padding-right: 3rem;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li {
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.menu ul li a {
+    color: black;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.nav-right a {
+    display: block;
+    padding: 0 1rem;
+    font-weight: 500;
+}
+
+.nav-right-try {
+    color: blue;
+    font-size: 1.2rem;
+}
+
+.nav-right-log {
+    font-size: 1.1rem;
+    color: black;
+}
