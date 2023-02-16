@@ -211,3 +211,41 @@ hr {
 .lone-img img {
     width: 100%;
 }
+
+/* hero-img second */
+.hero-img2 {
+    display: flex;
+    width: 100vw;
+    height: 60rem;
+    background: linear-gradient(90deg, #b6ffc0 60%, #fff 0%);
+}
+
+.img2-left {
+    flex: 0 0 50%;
+}
+
+.img2-left-min {
+    display: flex;
+    height: 60rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img2-left-min-1 {
+    width: 28rem;
+}
+
+.img2-right {
+    display: flex;
+}
+
+.img2-right-min {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2-right-min-1 {
+    width: 28rem;
+}
