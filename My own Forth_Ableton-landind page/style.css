@@ -360,6 +360,11 @@ hr {
     grid-column-end: 5;
 }
 
+.footer-logo {
+    font-size: 5rem;
+    font-weight: 500;
+}
+
 .item4,
 .item7 {
     grid-column-start: 3;
