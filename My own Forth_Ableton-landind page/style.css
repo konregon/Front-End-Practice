@@ -331,3 +331,47 @@ hr {
     font-weight: 500;
     color: #0000ff;
 }
+
+/* FOOTER */
+.footer {
+    /* width: 85%; */
+    height: 600px;
+    margin: 7rem;
+
+    /* background-color: dodgerblue; */
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.items {
+    /* background-color: aqua; */
+    /* height: 100px; */
+    /* width: 100px; */
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.item4,
+.item7 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.item8 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item9 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
