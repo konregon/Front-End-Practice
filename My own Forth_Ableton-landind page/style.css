@@ -380,3 +380,32 @@ hr {
     grid-column-start: 3;
     grid-column-end: 5;
 }
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-menu li a {
+    color: black;
+    font-size: 1.1rem;
+}
+
+.footer-menu-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.footer-menu-row ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-menu-row ul li {
+    margin-right: 1rem;
+}
+
+.footer-menu-row ul li a {
+    font-size: .9rem;
+    font-weight: 400;
+}
