@@ -1,0 +1,15 @@
+.container {
+    height: 100%;
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    height: 100vh;
+}
+
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
