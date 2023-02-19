@@ -342,11 +342,11 @@ hr {
 
     display: grid;
 
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr .5fr .8fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
 
-    row-gap: 10px;
-    column-gap: 10px;
+    row-gap: 4rem;
+    column-gap: 2rem;
 }
 
 .items {
@@ -386,7 +386,8 @@ hr {
     flex-direction: column;
 }
 
-.footer-menu li a {
+.footer-menu li a,
+.des {
     color: black;
     font-size: 1.1rem;
 }
@@ -408,4 +409,13 @@ hr {
 .footer-menu-row ul li a {
     font-size: .9rem;
     font-weight: 400;
+}
+
+.item9-row {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item9-row p {
+    margin-right: 1rem;
 }
