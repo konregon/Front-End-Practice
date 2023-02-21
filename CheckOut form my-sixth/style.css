@@ -2,4 +2,45 @@
     padding: 0;
     right: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+i {
+    display: block;
+}
+
+.container {
+    background-color: #e3e4e8;
+    margin: 2rem;
+    padding: 1rem;
+    border: 1px solid #666b79;
+    border-radius: 5px;
+}
+
+.fill-details {
+    display: flex;
+}
+
+.bill-add,
+.payment {
+    flex: 100%;
+}
+
+.bill-add h2,
+.payment h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.title-box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+input {
+    padding: .5rem;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
 }
