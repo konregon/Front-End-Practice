@@ -25,10 +25,92 @@
         <div class="fill-info-box">
             <div class="info-title">
                 Business Interest
-            </div>
-            <label for="mobile">Mobile Number:</label>
-            <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+                <br>
+                <label class="field-size">Activities:</label>
+                <input type="checkbox" id="buy" name="activities" value="Buy">
+                <label for="buy">Buy</label>
+                <input type="checkbox" id="invest" name="activities" value="Invest">
+                <label for="invest">Invest</label>
+                <input type="checkbox" id="partner" name="activities" value="Partner">
+                <label for="partner">Partner</label>
+                <input type="checkbox" id="lease" name="activities" value="Lease">
+                <label for="lease">Lease</label>
+                <input type="checkbox" id="franchise" name="activities" value="Franchise">
+                <label for="franchise">Franchise</label>
+                <br>
 
+                <label class="field-size" for="industries">Industries:</label>
+                <select id="industries" name="industries" required>
+                    <option value="">-- Please select an industry --</option>
+                    <option value="Automotive">Automotive</option>
+                    <option value="Education">Education</option>
+                    <option value="Healthcare">Healthcare</option>
+                    <option value="IT">IT</option>
+                    <option value="Retail">Retail</option>
+                </select>
+                <br>
+
+                <label class="field-size" for="location">Location:</label>
+                <select id="location" name="location[]" multiple required>
+                    <option value="New York">New York</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="Houston">Houston</option>
+                    <option value="Philadelphia">Philadelphia</option>
+                    <option value="Phoenix">Phoenix</option>
+                    <option value="San Antonio">San Antonio</option>
+                    <option value="San Diego">San Diego</option>
+                    <option value="Dallas">Dallas</option>
+                    <option value="San Jose">San Jose</option>
+                </select><br>
+            </div>
+
+            <div class="info-title">
+                Financial
+
+                <br>
+                <label class="field-size">Funding Source:</label>
+                <input type="radio" id="own" name="funding" value="Own" required>
+                <label for="own">Own</label>
+                <input type="radio" id="family-friends" name="funding" value="Family & Friends">
+                <label for="family-friends">Family & Friends</label>
+                <input type="radio" id="bank-loan" name="funding" value="Bank Loan">
+                <label for="bank-loan">Bank Loan</label>
+                <input type="radio" id="external-investors" name="funding" value="External Investors">
+                <label for="external-investors">External Investors</label>
+                <br>
+
+                <label class="field-size" for="budget">Budget</label>
+                <input type="text" name="" id="">
+                <br>
+            </div>
+
+            <div class="info-title">
+                Personal
+                <br>
+
+                <label class="field-size" for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+                <br>
+
+                <label class="field-size" for="zip-code">Zip Code:</label>
+                <input type="text" id="zip-code" name="zipCode" required pattern="[0-9]{6}">
+                <br>
+            </div>
+
+            <div class="info-title">
+                Professional
+                <br>
+
+                <label class="field-size" for="Company name">Company Name</label>
+                <input type="text" name="" id="">
+                <br>
+
+                <label class="field-size" for="skills">Skills:</label>
+                <div id="tags-container">
+                    <input type="text" id="tag-input" onkeydown="handleTagInput(event)">
+                </div><br><br>
+            </div>
         </div>
     </div>
 
