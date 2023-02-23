@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with validation</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <button class="edit-btn">Edit</button>
+        <button class="delete-btn">Delete</button>
+        <img src="" alt="get img">
+        <p class="profiler-name">Name</p>
+    </header>
+
+
+    <div class="form-container">
+        <div class="fill-info-box">
+            <div class="info-title">
+                Business Interest
+            </div>
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+
+        </div>
+    </div>
+
+    <!-- <form id="myForm" onsubmit="validateForm(); return false;">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="8" required>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" minlength="8" required>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        function validateForm() {
+            let name = document.forms["myForm"]["name"].value;
+            let email = document.forms["myForm"]["email"].value;
+            let password = document.forms["myForm"]["password"].value;
+            let confirmPassword = document.forms["myForm"]["confirmPassword"].value;
+
+            // Validate name
+            if (name == "") {
+                alert("Name must be filled out");
+                return false;
+            }
+
+            let mobileRegex = /^[0-9]{10}$/;
+			if (!mobileRegex.test(mobile)) {
+				alert("Mobile number must be a 10-digit number");
+				return false;
+			}
+
+            // Validate email
+            if (email == "") {
+                alert("Email must be filled out");
+                return false;
+            }
+
+            // Validate password
+            if (password.length < 8) {
+                alert("Password must be at least 8 characters long");
+                return false;
+            }
+
+            // Validate confirm password
+            if (confirmPassword != password) {
+                alert("Passwords do not match");
+                return false;
+            }
+
+            // If all validations pass, submit the form
+            alert("Form submitted successfully!");
+            document.getElementById("myForm").submit();
+        }
+    </script> -->
+</body>
+
+</html>
