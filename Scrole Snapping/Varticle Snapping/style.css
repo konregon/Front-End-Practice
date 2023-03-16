@@ -19,6 +19,26 @@ body .content section {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     scroll-snap-align: start;
+}
+
+.issue-1 {
+    background-color: #00c1b5;
+}
+
+.issue-2 {
+    background-color: #ff651a;
+}
+
+.issue-3 {
+    background-color: #ffbe00;
+}
+
+.issue-4 {
+    background-color: #1d3fbb;
+}
+
+.issue-5 {
+    background-color: #e30512;
 }
