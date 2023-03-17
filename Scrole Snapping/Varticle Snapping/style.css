@@ -11,6 +11,7 @@ body .content {
     scroll-snap-type: y mandatory;
     scroll-snap-type: mandatory;
     overflow: auto;
+    transition: ease-in-out .1s;
 }
 
 body .content section {
