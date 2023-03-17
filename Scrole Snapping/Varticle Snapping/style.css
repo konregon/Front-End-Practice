@@ -25,58 +25,75 @@ body .content section {
 }
 
 .issue-1 {
-    background-color: #00c1b5;
+    background-color: #fff;
     transition: ease-in-out 1s;
 }
 
 .issue-2 {
-    background-color: #ff651a;
-    transition: ease-in-out 1s;
-
+    background-color: #00c1b5;
 }
 
 .issue-3 {
-    background-color: #ffbe00;
+    background-color: #ff651a;
 }
 
 .issue-4 {
-    background-color: #1d3fbb;
+    background-color: #ffbe00;
 }
 
 .issue-5 {
+    background-color: #1d3fbb;
+}
+
+.issue-6 {
     background-color: #e30512;
 }
 
 
 .container {
-    padding: 1rem;
+    /* margin: 1rem; */
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
 }
 
 .nav-logo {
     width: 260px;
-    height: 50px;
 }
 
 .nav-logo img {
     width: 100%;
 }
 
+.main {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main img {
+    height: 100%;
+}
+
 .end-content {
     position: absolute;
-
     bottom: 0;
     width: 98%;
-
     display: flex;
     justify-content: space-between;
 }
 
 .end-left {
     /* position: absolute; */
-    width: 320px;
+    width: 300px;
     height: 220px;
 
     display: flex;
@@ -88,4 +105,9 @@ body .content section {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 0;
 }
