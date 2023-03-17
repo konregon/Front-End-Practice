@@ -2,6 +2,7 @@ body {
     width: 100%;
     margin: 0;
     background-color: white;
+    /* transition: all .1s; */
 }
 
 body .content {
@@ -11,7 +12,6 @@ body .content {
     scroll-snap-type: y mandatory;
     scroll-snap-type: mandatory;
     overflow: auto;
-    transition: ease-in-out .1s;
 }
 
 body .content section {
@@ -26,10 +26,13 @@ body .content section {
 
 .issue-1 {
     background-color: #00c1b5;
+    transition: ease-in-out 1s;
 }
 
 .issue-2 {
     background-color: #ff651a;
+    transition: ease-in-out 1s;
+
 }
 
 .issue-3 {
