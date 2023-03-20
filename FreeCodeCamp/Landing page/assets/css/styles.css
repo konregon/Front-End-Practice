@@ -40,3 +40,15 @@ a {
 a:hover {
     color: var(--secondary-color);
 }
+
+.fist {
+    color: var(--secondary-color);
+}
+
+.jab {
+    color: var(--primary-color);
+}
+
+.tv {
+    color: var(--secondary-color);
+}
