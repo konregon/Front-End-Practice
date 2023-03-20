@@ -52,3 +52,20 @@ a:hover {
 .tv {
     color: var(--secondary-color);
 }
+
+nav {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    box-shadow: 2px 3px 2px #f1f1f1;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.hamburger {
+    display: none;
+}
