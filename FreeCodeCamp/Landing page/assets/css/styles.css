@@ -291,3 +291,13 @@ form {
 .submit-btn:hover {
     background-color: #095cf7;
 }
+
+
+.social {
+    text-align: center;
+    margin: 2rem;
+}
+
+.socicons {
+    font-size: 1.3rem;
+}
