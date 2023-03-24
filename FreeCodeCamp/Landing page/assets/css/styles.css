@@ -474,3 +474,25 @@ body.dark footer {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+@media screen and (max-width: 420px) {
+    .hero {
+        max-width: 330px;
+    }
+
+    .intro-text h1 {
+        font-size: 2rem;
+    }
+
+    iframe {
+        max-width: 330px;
+    }
+
+    .stand-1 {
+        left: 140px;
+    }
+
+    .stand-2 {
+        left: 195px;
+    }
+}
