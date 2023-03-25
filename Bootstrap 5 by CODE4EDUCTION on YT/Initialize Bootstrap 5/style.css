@@ -9,6 +9,7 @@
 .col {
     /* border: 5px solid dodgerblue; */
     height: 50px;
+    border: .2px solid black;
 }
 
 .box-1 {
