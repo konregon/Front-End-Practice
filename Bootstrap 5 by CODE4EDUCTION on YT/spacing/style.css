@@ -9,8 +9,8 @@
 
 .col {
     /* border: 5px solid dodgerblue; */
-    height: fit-content;
-    min-height: 25px;
+    /* height: fit-content; */
+    /* min-height: 50px; */
     border: .2px solid black;
     background-color: aquamarine;
 }
