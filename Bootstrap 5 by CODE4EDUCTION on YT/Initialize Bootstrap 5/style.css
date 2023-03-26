@@ -1,5 +1,6 @@
 .container {
     border: 5px solid blue;
+    background-color: aqua;
 }
 
 .container-fluid {
@@ -8,8 +9,10 @@
 
 .col {
     /* border: 5px solid dodgerblue; */
-    height: 50px;
+    height: fit-content;
+    min-height: 25px;
     border: .2px solid black;
+    background-color: aquamarine;
 }
 
 .box-1 {
@@ -26,4 +29,12 @@
 
 .box-4 {
     background-color: orange;
+}
+
+.box-5 {
+    background-color: red;
+}
+
+.box-6 {
+    background-color: orangered;
 }
