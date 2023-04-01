@@ -1,3 +1,26 @@
+/* Navbar */
+.header-container{
+    /* background-color: aquamarine; */
+
+}
+
+.nav-box{
+    width: fit-content;
+    padding: .2rem;
+    background-color: #e8e5e480;
+    border-radius: 2rem;
+}
+
+.nav-box li a{
+    color: black;
+    margin: .2rem;
+}
+
+.nav-box .active-nav-link{
+    background-color: #fff;
+    border-radius: 2rem;
+}
+
 .hero-content{
     width: 100vw;
 }
