@@ -1,31 +1,55 @@
 /* Navbar */
-.header-container{
+.header-container {
     /* background-color: aquamarine; */
 
 }
 
-.nav-box{
+.nav {
+    position: sticky;
+    top: 0px;
+}
+
+
+
+.nav-box {
     width: fit-content;
     padding: .2rem;
     background-color: #e8e5e480;
     border-radius: 2rem;
 }
 
-.nav-box li a{
+.nav-box li a {
     color: black;
     margin: .2rem;
 }
 
-.nav-box .active-nav-link{
+.nav-box .active-nav-link {
     background-color: #fff;
     border-radius: 2rem;
 }
 
-.hero-content{
+.hero-content {
     width: 100vw;
 }
 
-.hero-content img{
+.hero-content img {
     width: 100%;
     border-radius: 10px;
+}
+
+.banner h2 {
+    font-size: 4rem;
+    color: black;
+}
+
+/* hero-menu */
+.hero-menu-ul li a {
+    color: black;
+}
+
+.hero-menu-ul li a:not(:first-child) {
+    width: fit-content;
+    padding: .2rem;
+    background-color: #e8e5e480;
+    border-radius: 2rem;
 }
