@@ -5,20 +5,44 @@
     --black: #080c16;
     --light-black: #d6dae5;
     --white: #fcfcfc;
+
+    --green-gradient: linear-gradient(90deg, rgba(0, 173, 106, 1) 0%, rgba(31, 227, 116, 1) 100%);
+
 }
 
-body {
-    background: #1fe374;
-}
+/* general CSS */
 
-.main-container {
-    background-color: #eafaf1;
-}
+
 
 /* Navbar */
 
-.nav-item {
-    padding: 0 1rem;
+nav {
+    background-color: var(--light-green);
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--dark-green);
+}
+
+.navbar-nav .nav-item .active-link {
+    color: black;
+}
+
+
+/* Banner */
+.banner {
+    background-color: var(--light-green);
+}
+
+.banner h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.banner p {
+    font-size: 1.2rem;
 }
 
 /* Pricing */
