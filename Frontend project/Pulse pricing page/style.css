@@ -57,3 +57,8 @@ nav {
 .pricing .card-first h3 {
     color: var(--dark -green);
 }
+
+/* review */
+.review {
+    background-color: var(--light-green);
+}
