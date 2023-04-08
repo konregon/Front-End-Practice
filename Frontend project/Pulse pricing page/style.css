@@ -46,3 +46,14 @@ nav {
 }
 
 /* Pricing */
+.pricing {
+    background-color: var(--light-green);
+}
+
+.pricing .card-first {
+    background-color: var(--light-green);
+}
+
+.pricing .card-first h3 {
+    color: var(--dark-green);
+}
