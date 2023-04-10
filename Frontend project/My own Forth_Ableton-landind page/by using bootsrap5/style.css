@@ -1,0 +1,21 @@
+/* Navbar */
+/* .navbar-nav-left {
+    display: flex;
+}
+
+.navbar-nav-right {
+    display: flex;
+} */
+nav .nav-link {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+nav .last-nav-link {
+    color: #ff764d;
+}
+
+nav .blue-nav-link {
+    color: #0000ff;
+}
