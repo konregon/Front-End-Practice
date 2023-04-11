@@ -41,6 +41,21 @@ nav .blue-nav-link {
     width: 100vw;
 }
 
+.banner .col {
+    position: relative;
+}
+
 .banner img {
     width: 100%;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8rem;
+    font-weight: 500;
+    color: #ff764d;
+    text-transform: uppercase;
 }
