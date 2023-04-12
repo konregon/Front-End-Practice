@@ -94,3 +94,18 @@ nav .blue-nav-link {
 .hero-video-row img {
     width: 100%;
 }
+
+
+/* Hero-2 */
+.hero-2-row {
+    background: linear-gradient(to right, #b6ffc0 0%, #b6ffc0 65%, #fff 65%, #fff 100%);
+}
+
+.hero-2-right img {
+    width: 90%;
+}
+
+.hero-2-col-up img,
+.hero-2-col-down img {
+    width: 70%;
+}
