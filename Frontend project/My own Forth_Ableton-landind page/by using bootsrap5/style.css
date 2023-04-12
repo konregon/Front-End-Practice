@@ -54,8 +54,21 @@ nav .blue-nav-link {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 8rem;
+    font-size: 5rem;
     font-weight: 500;
     color: #ff764d;
     text-transform: uppercase;
+}
+
+/* Hero-1 */
+
+.hero-1-row {
+    height: 100%;
+    background: linear-gradient(90deg, #fff 35%, #fbffa7 65%);
+    padding: 5rem;
+}
+
+.hero-1-yellow {
+    height: 540px;
+    background-color: #fbffa7;
 }
