@@ -109,3 +109,8 @@ nav .blue-nav-link {
 .hero-2-col-down img {
     width: 70%;
 }
+
+/* Hero-3 */
+.hero-3-img-col img {
+    width: 100%;
+}
