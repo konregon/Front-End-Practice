@@ -116,7 +116,21 @@ nav .blue-nav-link {
 }
 
 /* hero-5 */
+.hero-5 {}
+
 .hero-5-row {
-    min-height: 100vh;
     background: linear-gradient(to right, #fff 0%, #fff 10%, #d5b3ff 10%, #d5b3ff 90%, #fff 90%, #fff 100%);
+}
+
+.hero-5-col-left img {
+    width: 100%;
+}
+
+/* Hero-6 */
+.hero-6-row img {
+    width: 100%;
+}
+
+.hero-6-col-text {
+    background-color: #b1c5ff;
 }
